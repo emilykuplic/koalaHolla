@@ -1,12 +1,13 @@
 ### Koala Holla Steps
 
 - [x] Setup up Koala Database -- add commands to databaseSetup.sql
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] Koala Route setup
+- [x] Create object on button submit
+- [x] router.get
+- [x] router.post
+- [x] Add appendToDom function to view all Koalas
+- [ ] Create button with data id for Ready for Transfer (see book delete button for example)
+- [ ] 
 - [ ]
 - [ ]
 
