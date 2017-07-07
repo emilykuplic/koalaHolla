@@ -1,3 +1,16 @@
+### Koala Holla Steps
+
+- [x] Setup up Koala Database -- add commands to databaseSetup.sql
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+
+
 This must stop:
 ---------------
 ![Nevar again](https://i.makeagif.com/media/8-22-2014/GO_DT4.gif)
