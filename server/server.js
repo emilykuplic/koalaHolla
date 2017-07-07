@@ -10,7 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use('/koalas', koalasRoute);
 
 
-
 // Serve back static files by default
 app.get('/*', function(req, res) {
   var file = req.params[0] || '/views/index.html';

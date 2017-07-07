@@ -11,15 +11,21 @@ $( document ).ready( function(){
     // get user input and put in an object
     // NOT WORKING YET :(
     // using a test object
-    var objectToSend = {
-      name: 'testName',
-      age: 'testName',
-      gender: 'testName',
-      readyForTransfer: 'testName',
-      notes: 'testName',
-    };
+    var sendKoala = {};
+      sendKoala.koala_name = $('#nameIn').val();
+      sendKoala.age = $('#ageIn').val();
+      sendKoala.gender = $('#genderIn').val();
+      sendKoala.ready_for_transfer = $('#readyForTransferIn').val();
+      sendKoala.notes = $('#notesIn').val();
+      // name: 'testName',
+      // age: 'testName',
+      // gender: 'testName',
+      // readyForTransfer: 'testName',
+      // notes: 'testName',
+
+
     // call saveKoala with the new obejct
-    saveKoala( objectToSend );
+    saveKoala( sendKoala );
   }); //end addButton on click
 }); // end doc ready
 
