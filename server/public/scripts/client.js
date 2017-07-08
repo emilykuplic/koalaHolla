@@ -46,8 +46,8 @@ function saveKoala( newKoala ){
     url: '/koalas',
     type: 'POST',
     data: newKoala,
-    success: function( data ){
-      console.log( 'got some koalas: ', data );
+    success: function(data){
+      console.log( 'got some koalas: ', data);
     } // end success
   }); //end ajax
 }
